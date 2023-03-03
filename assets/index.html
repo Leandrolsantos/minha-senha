@@ -5,13 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="gerador de senhas, password, senhas">
-    <title>MINHA SENHA - Gerador de Senha</title>
+    <title>Minha Senha é...</title>
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
-    
+     
+    <img class="logo" src="/minha-senha/assets/img/logo.png" alt="cabeça pensando em senha">
+
+    <main class="container-input">  
+        
+    <span>Quantos <span id="valor"></span> caracteres ?</span>
+        <input id="slider" class="slider" type="range" min="5" max="25" value="15">
+
+        <button id="button" class="button-cta">Gerar senha</button>
+    </main>
+
+    <div id="container-password" class="container-password hide">
+      <span class="title">Sua senha gerada é:</span>
+      <span id="password" class="password"></span>
+      <span class="tooltip">👉Clique na sua senha para copiar👈</span>  
+    </div>
 
     <script src="./js/scrip.js"></script>
 </body>
