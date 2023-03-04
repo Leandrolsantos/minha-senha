@@ -9,3 +9,20 @@ let containerPassword = document.querySelector("#container-password");
 
 let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#";
 let novaSenha = "";
+
+sizePassword.innerHTML = sliderElement.value;
+
+sliderElement.oninput = function(){
+   sizePassword.innerHTML = this.value; 
+}
+
+function generatePassword(){
+    
+    let pass = "";
+    for(let i = 0, n = charset.length; i < sliderElement.value; ++i){
+      pass += charset.charAt(Math.floor(Math.random() * n)); 
+    }
+
+    console.log(pass); 
+
+}
