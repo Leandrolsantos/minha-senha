@@ -1,4 +1,4 @@
-# MINHA SENHA É...- Gerador de Senha
+# MINHA SENHA É... - Gerador de Senha
 
 Botão concluído: Em breve..
 
