@@ -23,6 +23,26 @@ function generatePassword(){
       pass += charset.charAt(Math.floor(Math.random() * n)); 
     }
 
-    console.log(pass); 
+    containerPassword.classList.remove("hide");
+    password.innerHTML = pass;
+    novaSenha = pass; 
 
 }
+
+  function copyPassword(){
+    alert("Copiado com sucesso !!");
+    navigator.clipboard.writeText(novaSenha);
+  }
+
+  function typeWriter2(elemento) {
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra, i) => {
+      setTimeout(() => elemento.innerHTML += letra, 80 * i);
+    });
+  }
+
+  const subtitulo = document.querySelector('p');
+  typeWriter2(subtitulo);
+
+  
