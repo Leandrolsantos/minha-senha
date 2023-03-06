@@ -46,3 +46,5 @@ function generatePassword(){
   typeWriter2(subtitulo);
 
   
+
+  
