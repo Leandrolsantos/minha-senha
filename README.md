@@ -1,6 +1,7 @@
 # MINHA SENHA É... - Gerador de Senha
 
-Botão concluído: Em breve..
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
 
 ![](./)
 
@@ -10,19 +11,19 @@ Deploy do projeto: <>
 
 ## Sobre
 
-É um site que cria senhas aleatórias para ajudar no dia a dia das pessoas que te mdificuldade de criar senhas fortes.
+É um site que cria senhas complexas para ajudar no dia a dia das pessoas que desejam criar senhas mais seguras.
 
 ### Objetivo
 
-Desenvolver minhas habilidades de JavaScript trabalhando com algoritimo no Js.
+Desenvolver minhas habilidades de JavaScript trabalhando com algoritimo no JavaScript e CSS.
 
 ### Desafio
 
-Em breve..
+Meu desafio foi desenvolver no JavaScript, compreendendo como escrever um algoritmo que cria senhas aleatórias. É a primeira vez que desenvolvo nesse foco e portanto tive o auxílio de alguns códigos nas internet. 
 
 ### Conclusão
 
-Em breve..
+Fiquei muito empolgado em desenvolver mais com JavaScript. Já tinha o conhecimento do curso da Alura, mas nesse projeto me senti mais confiante. No próximo projeto irei trabalhar mais com algoritmos e também praticar mais o React.
 
 ### Ferramentas Utilizadas
 
