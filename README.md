@@ -15,11 +15,11 @@ Deploy do projeto: <https://minha-senha.vercel.app/>
 
 ### Objetivo
 
-Desenvolver minhas habilidades de JavaScript trabalhando com algoritimo no JavaScript e CSS.
+Desenvolver minhas habilidades trabalhando com algoritimo no JavaScript e praticar novas ferramentas do CSS.
 
 ### Desafio
 
-Meu desafio foi desenvolver no JavaScript, compreendendo como escrever um algoritmo que cria senhas aleatórias. É a primeira vez que desenvolvo nesse foco e portanto tive o auxílio de alguns códigos nas internet. 
+Meu desafio foi desenvolver no JavaScript, compreendendo como escrever um algoritmo que cria senhas aleatórias. É a primeira vez que desenvolvo com esse foco, pesquisei em alguns códigos no youtube e comunidades.
 
 ### Conclusão
 

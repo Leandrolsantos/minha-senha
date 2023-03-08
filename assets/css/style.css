@@ -161,7 +161,7 @@ p::after {
    opacity: 1; 
 }
 
-@media (max-width: 600px) {
+@media screen (min-width: 320px) and (max-width: 600px) {
 
     body{
         display: block;
@@ -175,7 +175,7 @@ p::after {
 
     header p{
         display: block;
-        position:static;
+        position: static;
         width: 100%;
         top: 70px;
         right: 0px;
@@ -187,12 +187,9 @@ p::after {
         display: block;
     }
 
-    span{
-        display: block;
-        text-align: center;
-        width: 100vw;
-        margin-top: 10px;
-        margin-bottom: 10px;
+   span{
+      display: block;
+      font-size: 10px;
     }
 
     .slider{
